@@ -155,30 +155,30 @@ The rarest class (Royal Flush) is **167,000× less frequent** than the most comm
 ---
 
 ## Project Structure
-poker-hand-classification/
-├── README.md # Project documentation\
-├── requirements.txt # Python dependencies\
-├── app.py # Streamlit web application\
-├── save_models.py # Model training script\
+poker-hand-classification/\
+├── README.md           # Project documentation\
+├── requirements.txt    # Python dependencies\
+├── app.py              # Streamlit web application\
+├── save_models.py      # Model training script\
 │
-├── data/
-│ ├── poker-hand-training.csv # Training data (25K samples)\
-│ ├── poker-hand-testing.csv # Test data (1M samples)\
-│ ├── train_engineered.csv # Engineered features (training)\
-│ └── test_engineered.csv # Engineered features (test)\
+├── data/\
+│ ├── poker-hand-training.csv       # Training data (25K samples)\
+│ ├── poker-hand-testing.csv        # Test data (1M samples)\
+│ ├── train_engineered.csv          # Engineered features (training)\
+│ └── test_engineered.csv           # Engineered features (test)\
 │
-├── models/
-│ ├── best_model.pkl # Trained Logistic Regression\
-│ └── scaler.pkl # Feature scaler\
+├── models/\
+│ ├── best_model.pkl                # Trained Logistic Regression\
+│ └── scaler.pkl                    # Feature scaler\
 │
-├── src/
-│ ├── feature_engineering.py # Core feature engineering logic\
-│ ├── evaluation.py # Model evaluation metrics\
-│ └── utils.py # Data loading and analysis\
+├── src/\
+│ ├── feature_engineering.py        # Core feature engineering logic\
+│ ├── evaluation.py                 # Model evaluation metrics\
+│ └── utils.py                      # Data loading and analysis\
 │
-└── notebooks/
-├── 01_exploratory_analysis.ipynb # EDA and feature creation\
-└── 02_modeling.ipynb # Model training and evaluation
+└── notebooks/\
+├── 01_exploratory_analysis.ipynb   # EDA and feature creation\
+└── 02_modeling.ipynb               # Model training and evaluation
 
 
 ---
@@ -419,4 +419,3 @@ This is a portfolio project, but suggestions and feedback are welcome! Feel free
 ---
 
 *Built with passion for clean code, thoughtful ML, and practical problem-solving.*
-# Poker_Hand_Classification
